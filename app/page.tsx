@@ -366,7 +366,7 @@ export default function HomePage() {
     <div className="min-h-screen bg-cream p-4">
       <div className="max-w-2xl mx-auto">
         <div className="flex justify-between items-center mb-8">
-          <h1 className="text-3xl font-serif text-charcoal">Kevin & Kaitlyn</h1>
+          <h1 className="text-3xl font-serif text-charcoal">Kevin & Kaitlin</h1>
           <button onClick={logout} className="px-3 py-1 text-sm text-grey-soft hover:text-charcoal transition-colors">Logout</button>
         </div>
 

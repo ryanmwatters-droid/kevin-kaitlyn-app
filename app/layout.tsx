@@ -3,8 +3,8 @@ import "./globals.css";
 import ServiceWorker from "@/components/ServiceWorker";
 
 export const metadata: Metadata = {
-  title: "Kevin & Kaitlyn Wedding Planner",
-  description: "Shared wedding planning app for Kevin and Kaitlyn",
+  title: "Kevin & Kaitlin Wedding Planner",
+  description: "Shared wedding planning app for Kevin and Kaitlin",
   manifest: '/manifest.json',
   appleWebApp: {
     capable: true,

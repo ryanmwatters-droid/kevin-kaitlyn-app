@@ -28,7 +28,7 @@ export default function LoginPage() {
     <div className="min-h-screen bg-cream flex items-center justify-center p-4">
       <div className="w-full max-w-md bg-white rounded-2xl border border-grey-soft/20 p-8 shadow-sm">
         <h1 className="text-3xl font-serif text-charcoal text-center mb-8">
-          Kevin & Kaitlyn
+          Kevin & Kaitlin
         </h1>
         {error && (
           <div className="bg-red-50 border border-red-200 text-red-700 px-4 py-3 rounded-xl text-sm mb-6">

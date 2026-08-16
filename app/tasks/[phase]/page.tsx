@@ -122,7 +122,7 @@ export default function PhaseDetailPage() {
   )
 
   const allCategories = Array.from(new Set(tasks.map(t => t.category)))
-  const allAssignees = ['Unassigned', 'Anybody', 'Kevin', 'Kaitlyn']
+  const allAssignees = ['Unassigned', 'Anybody', 'Kevin', 'Kaitlin']
 
   const filteredTasks = tasks
     .filter(t => selectedCategories.length === 0 || selectedCategories.includes(t.category))
@@ -192,7 +192,7 @@ export default function PhaseDetailPage() {
                         <option value="Unassigned">Unassigned</option>
                         <option value="Anybody">Anybody</option>
                         <option value="Kevin">Kevin</option>
-                        <option value="Kaitlyn">Kaitlyn</option>
+                        <option value="Kaitlin">Kaitlin</option>
                       </select>
                       {task.notes && <span className="text-grey-soft italic text-sm">{task.notes}</span>}
                     </div>

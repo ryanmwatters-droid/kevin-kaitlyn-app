@@ -1,4 +1,4 @@
-# Kevin & Kaitlyn Wedding Planner
+# Kevin & Kaitlin Wedding Planner
 
 A shared Progressive Web App for wedding planning with real-time sync.
 Wedding date: **Saturday, June 12, 2027.**
@@ -10,7 +10,7 @@ Wedding date: **Saturday, June 12, 2027.**
 2. SQL Editor → paste and run **`supabase/migrations/001_init.sql`** (creates every
    table, RLS policies, realtime, the documents storage bucket, and the starter
    task template + vendor/budget categories).
-3. Authentication → Users → **Add user** twice, e.g. `kevin@…` and `kaitlyn@…`,
+3. Authentication → Users → **Add user** twice, e.g. `kevin@…` and `kaitlin@…`,
    each with a password. (Email/password sign-in; no email confirmation needed —
    under Authentication → Providers you can disable "Confirm email" for instant use.)
 4. Project Settings → API → copy the **Project URL** and the **anon public** key.

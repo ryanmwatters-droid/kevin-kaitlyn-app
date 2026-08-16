@@ -10,7 +10,7 @@ import { PEOPLE_NAMES } from '@/lib/people'
 function senderInfo(email: string | null | undefined): { name: string; bubble: string } {
   const local = (email || '').toLowerCase().split('@')[0]
   if (local.includes('kevin')) return { name: 'Kevin', bubble: 'bg-sage-primary text-white' }
-  if (local.includes('kaitlyn')) return { name: 'Kaitlyn', bubble: 'bg-rose-accent text-white' }
+  if (local.includes('kaitlin')) return { name: 'Kaitlin', bubble: 'bg-rose-accent text-white' }
   const fallback = email ? email.split('@')[0].split('.')[0].replace(/^./, c => c.toUpperCase()) : 'Them'
   return { name: fallback, bubble: 'bg-grey-soft text-white' }
 }
