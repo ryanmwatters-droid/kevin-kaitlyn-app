@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-  <rect width="512" height="512" fill="#4A5D4A"/>
-  <text x="256" y="276" font-family="'Cormorant Garamond', Georgia, 'Times New Roman', serif" font-size="240" font-weight="400" fill="#FAF7F2" text-anchor="middle" dominant-baseline="middle" letter-spacing="-2">R&amp;H</text>
-  <text x="256" y="420" font-family="Georgia, serif" font-size="48" fill="#B08585" text-anchor="middle" dominant-baseline="middle">✿</text>
+  <rect width="512" height="512" fill="#97646A"/>
+  <text x="256" y="266" font-family="'Cormorant Garamond', Georgia, 'Times New Roman', serif" font-size="200" font-weight="400" fill="#FBF6F4" text-anchor="middle" dominant-baseline="middle" letter-spacing="-4">K&amp;K</text>
+  <text x="256" y="410" font-family="Georgia, serif" font-size="52" fill="#D9AFB2" text-anchor="middle" dominant-baseline="middle">✿</text>
 </svg>
