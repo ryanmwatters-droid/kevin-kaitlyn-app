@@ -2,20 +2,23 @@
 @import "tailwindcss";
 
 :root {
-  --background: #FAF7F2;
-  --foreground: #2E3A2E;
+  --background: #FBF6F4;
+  --foreground: #3A2E31;
 }
 
+/* Dusty-rose palette. Token names are kept from the original (sage-*) so no
+   component markup had to change — the values below drive the whole app.
+   "sage-primary" is now the deep dusty rose used for primary actions. */
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --color-sage-primary: #4A5D4A;
-  --color-sage-muted: #7B8A78;
-  --color-rose-accent: #B08585;
-  --color-dusty-blue: #7B8AA8;
-  --color-cream: #FAF7F2;
-  --color-charcoal: #2E3A2E;
-  --color-grey-soft: #666666;
+  --color-sage-primary: #97646A;  /* deep dusty rose — primary actions */
+  --color-sage-muted: #C9A7AA;    /* soft rose — pill backgrounds */
+  --color-rose-accent: #B98487;   /* dusty rose — accents & highlights */
+  --color-dusty-blue: #8091AC;    /* cool slate — complementary accent */
+  --color-cream: #FBF6F4;         /* warm blush cream — background */
+  --color-charcoal: #3A2E31;      /* warm charcoal — text */
+  --color-grey-soft: #6E6568;     /* warm soft grey — muted text */
   --font-sans: 'Inter', sans-serif;
   --font-serif: 'Cormorant Garamond', serif;
 }

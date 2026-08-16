@@ -192,6 +192,11 @@ CREATE TABLE countdowns (
   created_at TIMESTAMPTZ DEFAULT now()
 );
 
+-- The wedding-day countdown (4:30 PM, June 12, 2027). Stored in US Central;
+-- edit it in-app if the couple is in another timezone.
+INSERT INTO countdowns (title, target_date, color, sort_order)
+VALUES ('Wedding', '2027-06-12 16:30:00-05:00', '#B98487', 0);
+
 -- ============================================================================
 -- Row Level Security: any signed-in user has full access (2-person app)
 -- ============================================================================
